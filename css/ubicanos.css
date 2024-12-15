@@ -1,0 +1,107 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+  }
+  .container-fluid{
+      margin-left: 5px;
+      margin-top: 55px;
+      border: 4px solid#224163;
+      padding: 1rem 2rem;
+      background-color: #ffffff;
+  }
+  
+  .navbar-brand{
+      gap: 75px;
+  }
+  
+  .navbar-nav{
+      gap: 30px;
+  }
+  
+  .navbar-brand a {
+      font-family: 'Bebas Neue';
+      font-size: 2.3rem;
+      text-decoration: none;
+      color: #ff6a00; 
+  }
+  
+  .navbar-brand a:hover {
+      text-decoration: overline;
+  }
+  
+  .btn-lg {
+      font-family: 'Bebas Neue';
+      text-transform: uppercase;
+      letter-spacing: 7px;
+      font-size: 5rem;
+      padding: 1rem 1.5rem;
+      font-weight: bold;
+      color: rgb(250, 161, 28);
+      text-shadow: 5px 4px rgba(0, 0, 0, 0.181);
+      background-color: #fff; 
+      border: 2px solid #ffffff; 
+  }
+  
+  .btn-lg:hover {
+      border: 3px solid rgb(0, 0, 0);
+      border-radius: 0px;
+      box-shadow: 8px 8px black;
+      background-color: #3a4551;
+      color: #dfc296;
+  }
+
+.card-title{
+    color: rgb(65, 81, 173);
+    font-family: 'Bebas Neue';
+}
+
+.card-body{
+    background-color: lightsteelblue;
+}
+
+body {
+    background-color:   #f8f9fa;
+    font-family: Arial, sans-serif;
+    background-image: url('../imagen/fondoubi.jpg'); 
+}
+
+h2 {
+    color: #002060;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+}
+
+
+p{
+    color: cadetblue;
+    font-family: 'Chelsea Market';
+}
+
+footer {
+    background-color: #628a60;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.col1{
+    font-family: 'Arvo';
+    font-size: 1rem;
+    font-style: oblique;
+    color: #000000;
+}
+
+.col2{
+    font-family: 'Arvo';
+    font-size: 1rem;
+    color:#001327;
+}
+
+.semi-transparent{
+    font-family: 'Arvo';
+    font-size: 0.8rem;
+    color:#989898;
+}

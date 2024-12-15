@@ -1,0 +1,188 @@
+header{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+}
+.container-fluid{
+    margin-left: 5px;
+    margin-top: 55px;
+    border: 4px solid#224163;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+}
+
+.navbar-brand{
+    gap: 75px;
+}
+
+.navbar-nav{
+    gap: 30px;
+}
+
+.navbar-brand a {
+    font-family: 'Bebas Neue';
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: #ff6a00; 
+}
+
+.navbar-brand a:hover {
+    text-decoration: overline;
+}
+
+.btn-lg {
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 5rem;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    color: rgb(250, 161, 28);
+    text-shadow: 5px 4px rgba(0, 0, 0, 0.181);
+    background-color: #2a3a5c; 
+    border: 2px solid #ffffff; 
+}
+
+.btn-lg:hover {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    box-shadow: 8px 8px black;
+    background-color: #3a4551;
+    color: #dfc296;
+}
+
+.image-container-1, .image-container-2, .image-container-3, .image-container-4 {
+    position: relative;
+    height: 300px; 
+}
+
+.image-text-1, .image-text-2, .image-text-3, .image-text-4 {
+    position: sticky;
+    top: 90px;
+    left: 0;
+    right: 0;
+    text-align: end;
+    background-color: rgb(72, 171, 184);
+    color: rgb(20, 21, 75);
+    padding: 5px;
+    text-align: center;
+}
+
+.container h2{
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    padding: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #2fc278;
+    text-align: center;
+}
+
+.image-container-1 img, .image-container-2 img, .image-container-3 img, .image-container-4 img {
+    border-radius: 80px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: 3px dashed darkblue;
+}
+
+
+.image-text-1, .image-text-2, .image-text-3, .image-text-4 {
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    border-radius: 100px;
+    transition: transform 0.3s ease;
+}
+
+.image-text-1 h3, .image-text-2 h3, .image-text-3 h3, .image-text-4 h3 {
+    margin-top: 15px;
+    font-family: 'Chelsea Market';
+}
+
+.image-text-1 p, .image-text-2 p, .image-text-3 p, .image-text-4 p {
+    font-size: 1.2rem;
+    font-family: 'Special Elite';
+}
+
+
+.contenedor-1, .contenedor-2, .contenedor-3, .contenedor-4 {
+    display: grid;
+    grid-template-rows: 1fr 1.3fr; 
+}
+
+.contenedor-1 {
+    background-color: cadetblue;
+    background-image: url('../imagen/fondo1.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    border: 3px solid darkblue;
+    margin: 6px;
+}
+
+.contenedor-2 {
+    background-color: lightslategrey;
+    background-image: url('../imagen/fondo2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border: 3px solid darkblue;
+    margin: 6px;
+}
+
+.contenedor-3 {
+    background-color: darkcyan;
+    background-image: url('../imagen/fondo3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border: 3px solid darkblue;
+    margin: 6px;
+}
+
+.contenedor-4{
+    background-color: darkslategrey;
+    border: 3px solid darkblue;
+    margin: 6px;
+}
+
+.video-container{
+    height: 200px;
+}
+footer {
+    background-color: #628a6089;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    
+}
+
+footer .semi-transparent {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.col1{
+    font-family: 'Arvo';
+    font-size: 1rem;
+    font-style: oblique;
+    color: #000000;
+}
+
+.col2{
+    font-family: 'Arvo';
+    font-size: 1rem;
+    color:#224163;
+}
+
+.semi-transparent{
+    font-family: 'Arvo';
+    font-size: 0.8rem;
+    color:#989898;
+}
+
+.image-container-1 img:hover, .image-container-2 img:hover, .image-container-3 img:hover, .image-container-4 img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.image-container-1:hover .image-text-1, .image-container-2:hover .image-text-2, .image-container-3:hover .image-text-3, .image-container-4:hover .image-text-4 {
+    transform: translateY(-10px); 
+}
